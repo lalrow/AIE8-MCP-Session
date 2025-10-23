@@ -91,3 +91,32 @@ Choose an API that you enjoy using - and build an MCP server for it!
 Build a simple LangGraph application that interacts with your MCP Server.
 
 You can find details [here](https://github.com/langchain-ai/langchain-mcp-adapters)!
+
+## 🤖 Activity #2: LangGraph Integration
+
+This project includes a simple LangGraph client that connects to the MCP server and uses AI agents to interact with the tools.
+
+### Setup
+
+1. Install dependencies:
+   ```bash
+   uv sync
+   ```
+
+2. Set up environment variables by adding your OpenAI API key to `.env`:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+
+3. Run the LangGraph client:
+   ```bash
+   uv run langgraph_client.py
+   ```
+
+### How It Works
+
+The LangGraph client:
+- Connects to your MCP server via stdio transport
+- Loads all available tools (e.g., `web_search`, `roll_dice`, `number_fact`)
+- Creates a ReAct agent using `openai:gpt-4o`
+- Demonstrates tool usage with example queries
