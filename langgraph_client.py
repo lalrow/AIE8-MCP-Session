@@ -42,6 +42,7 @@ async def main() -> None:
                 "Roll 3d6 dice for me",
                 "What's an interesting fact about the number 42?",
                 "Tell me a fun fact about cats",
+                "Use the space_fact tool to fetch today's NASA Astronomy Picture of the Day",
             ]
 
             for i, query in enumerate(queries, 1):
