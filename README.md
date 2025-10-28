@@ -84,7 +84,13 @@ There are a few activities for this assignment!
 
 ### 🏗️ Activity #1: 
 
-Choose an API that you enjoy using - and build an MCP server for it!
+Choose an API that you enjoy using - and build an MCP server for it!  
+
+✅ Answer:
+Added few new Apis in server.py. Example:- like below  
+@mcp.tool()
+def space_fact() -> str:
+
 
 ### 🏗️ Activity #2: 
 
@@ -92,9 +98,9 @@ Build a simple LangGraph application that interacts with your MCP Server.
 
 You can find details [here](https://github.com/langchain-ai/langchain-mcp-adapters)!
 
-## 🤖 Activity #2: LangGraph Integration
 
-This project includes a simple LangGraph client that connects to the MCP server and uses AI agents to interact with the tools.
+✅ Answer:  
+This project  includes a simple LangGraph client that connects to the MCP server and uses AI agents to interact with the tools.
 
 ### Setup
 
