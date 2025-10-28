@@ -87,8 +87,9 @@ There are a few activities for this assignment!
 Choose an API that you enjoy using - and build an MCP server for it!  
 
 ✅ Answer:
-Added few new Apis in server.py. Example:- like below  
-@mcp.tool()
+Added few new Apis in server.py.  
+Example:- like below    
+@mcp.tool()  
 def space_fact() -> str:
 
 
